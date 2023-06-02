@@ -1,0 +1,27 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Creé este repositorio para estudiar sobre algunas estructuras de datos, simuladolas programando en javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-vr/data-structures.git"
+  },
+  "keywords": [
+    "javascript",
+    "data structures"
+  ],
+  "author": "Alejandro Valencia",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alejandro-vr/data-structures/issues"
+  },
+  "homepage": "https://github.com/alejandro-vr/data-structures#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
