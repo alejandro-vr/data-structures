@@ -28,7 +28,7 @@ class MySingleLinkedList {
     const newNode = new Node(value);
     if(index == 0) {
       this.prepend(value);
-    } else if(index > this.length) {
+    } else if(index == this.length) {
       this.append(value);
     } else {
       const firstPointer = this.getByIndex(index-1);
