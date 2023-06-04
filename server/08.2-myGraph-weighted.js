@@ -30,6 +30,10 @@ class MyGraph { // weigthed and optional directed, based on an object 'adjacentM
             }
           }
         }
+        // Fill identity elements using 0
+        if(keys[i] == keys[j]) {
+          this.adjacentMatrix[keys[i]][j] = '0';
+        }
         // Fill empty (undefined) elements using '-'
         if(this.adjacentMatrix[keys[i]][j] == undefined) {
           this.adjacentMatrix[keys[i]][j] = '-';
